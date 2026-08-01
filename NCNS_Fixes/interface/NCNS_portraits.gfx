@@ -12,4 +12,11 @@ spriteTypes = {
 	#	texturefile = "gfx/interface/advisors/JAP/(ファイル名).png"
 	#}
 
+	
+	spriteType = {
+		name = "GFX_portrait_JAP_Hajime_Sugiyama"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_Hajime_Sugiyama.png"
+	}
+	
+
 }

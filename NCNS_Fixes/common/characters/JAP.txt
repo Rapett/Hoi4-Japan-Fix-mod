@@ -1850,15 +1850,6 @@ characters = {
 			}
 		}
 		
-		navy_leader = {
-			traits = { bold navy_career_officer gunnery_expert naval_lineage }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			maneuvering_skill = 3
-			coordination_skill = 2
-			legacy_id = -1
-		}
 
 		scientist = {
 			traits = { scientist_trait_bright }
@@ -2491,6 +2482,7 @@ characters = {
 
 		portraits = {
 			army = {
+				large = GFX_portrait_JAP_Hajime_Sugiyama
 				small = GFX_idea_hajime_sugiyama
 			}
 		}
@@ -2515,6 +2507,16 @@ characters = {
 					has_active_mission = JAP_army_faction_demands_military_factories
 				}
 			}
+		}
+
+		field_marshal = {
+			traits = { politically_connected JAP_samurai_lineage inflexible_strategist old_guard JAP_royal_lineage }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
 		}
 
 	}
